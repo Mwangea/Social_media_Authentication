@@ -254,7 +254,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 });
-    }
+    };
 
     private void sendUserToNextActivity() {
         Intent intent = new Intent(MainActivity.this, HomeActivity.class);
