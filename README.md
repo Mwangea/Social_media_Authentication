@@ -1,4 +1,4 @@
-#Social Media Authentication Android App
+# Social Media Authentication Android App
 ![alt text](https://github.com/Mwangea/Social_media_Authentication/blob/master/Screenshot%20(32).png?raw=true)
 ![alt text](https://github.com/Mwangea/Social_media_Authentication/blob/master/Screenshot%20(33).png?raw=true)
 ![alt text](https://github.com/Mwangea/Social_media_Authentication/blob/master/Screenshot%20(34).png?raw=true)
@@ -6,7 +6,7 @@
 ![alt text](https://github.com/Mwangea/Social_media_Authentication/blob/master/Screenshot%20(36).png?raw=true)
 ![alt text](https://github.com/Mwangea/Social_media_Authentication/blob/master/Screenshot%20(37).png?raw=true)
 
-#Overview
+# Overview
 This Android application simplifies user authentication by integrating with popular social media platforms like Facebook, Twitter, and Google. Users can seamlessly sign in to your app using their existing social media accounts, providing a convenient and secure authentication process.
 
 ## Features
@@ -20,7 +20,6 @@ This Android application simplifies user authentication by integrating with popu
 - **Customizable User Experience:** Customize the authentication flow and UI to match your app's branding and requirements.
   
 - **User Data Access:** Access basic user profile information after authentication, depending on the permissions granted by the user.
-# Social Media Authentication Android App
 
 ## Technologies Used
 
