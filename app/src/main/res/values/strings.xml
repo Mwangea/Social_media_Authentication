@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SignIn</string>
+    <string name="default_web_client_id">\n1:459243864535:android:be818daa9ab9b0ccac8b92</string>
+    <string name="facebook_app_id">11075977523695622</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+</resources>

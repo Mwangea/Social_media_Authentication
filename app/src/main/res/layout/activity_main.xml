@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/signin"
+      android:text="Sign In"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:textSize="35sp"
+      android:layout_margin="50dp"
+      android:gravity="center"
+      />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/email"
+    android:layout_below="@+id/signin"
+    android:background="@drawable/border_radius"
+    android:hint="email"
+    android:textColorHint="@color/black"
+    android:textColor="@color/black"
+    android:inputType="textEmailAddress"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+    />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_margin="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border_radius"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbtn"
+        android:layout_below="@+id/password"
+        android:text=" LOGIN"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/forgetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginbtn"
+        android:layout_alignEnd="@+id/password"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="-15dp"
+        android:text="FORGOT PASSWORD ?"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newaccount"
+        android:layout_below="@+id/loginbtn"
+        android:text="create new Account ?"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newaccount"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="-30dp"
+        android:text="or"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:id="@+id/socialicons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/others"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="-30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/google_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/googlebg" />
+
+        <ImageView
+            android:id="@+id/facebook_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/facebookbg" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/twitterbg" />
+    </LinearLayout>
+
+</RelativeLayout>
